@@ -21,7 +21,7 @@ return response.data;
 };
 
 export const addMenuItem = async item => {
-const response = await axios.post('/add', item);
+const response = await axios.post('/menu', item);
 return response.data;
 };
 
