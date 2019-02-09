@@ -1,0 +1,15 @@
+.MenuGrid {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MenuGridItem{
+    margin-top: 20px;
+}
+.MenuLink{
+    text-decoration: none;
+    color: #3b3a3a;
+}
